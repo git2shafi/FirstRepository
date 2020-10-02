@@ -1,19 +1,16 @@
 package com.shafi.java.core;
 
-public class Supclass extends SubClass {
+public class Supclass {
 
-	public static void main(String[] args) {
-		
-		
-		System.out.println("Welcome to my first project");
-		Supclass sp = new Supclass();
-		sp.message();
-
-	}
-	
 	public void message() {
 		
 		System.out.println("Welcome to my SuperClass");
+		
+	}
+	
+	public void supMessage() {
+		
+		System.out.println("This is supMessage");
 	}
 
 }
