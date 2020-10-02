@@ -7,7 +7,7 @@ public class TestClass {
 		SubClass sp = new SubClass();
 		sp.message();
 		sp.supMessage();
-        
+        sp.strStrBufferDuff();
   }
 
 }
